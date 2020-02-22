@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url(/image/background.jpg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-body h5{
+  font-size: 0.83em;
+}
+
+.rounded{
+  width: 120px;
+  margin-left: 65px;
+}
+
+.card{
+  margin-right: 40px;
+  border-radius: 17px !important;
+}
+
+.card img {
+  border-radius: 17px 0 0 17px;
+  height: 100%;
+  width: 176px;
+}
+
+.card a:hover {
+  text-decoration: none;
+  cursor: url("/image/droid-helmet-soldier-star-wars-512.png"), auto;
+}
+
+.navbar{
+  background: black;
+  background-image: url(/image/navbar-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+}
+
+.navbar img {
+  margin-bottom: 25px;
+}
+
+.position-b-0{
+  bottom: 0;
+  position: absolute;
+}
+
+.principal-title{
+  font-family: 'MedievalSharp', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+.link{
+  margin-right: 15px;
+  color: white;
+  text-shadow: 5px 3px 1px #2178cf;
+  font-size: 20px;
+}
+
+.link:hover{
+  color: white;
+}
+
+.py-5{
+  background: black;
+}
+
+.icon{
+  color: white;
+  width: 15px;
+  font-size: 25px;
+  padding-right: 50px;
+}
+
+.selected-true {
+  background: red !important;
+}
+
+.card-body {
+  background-image: url(/image/background.jpg);
+  color: white;
+  border-radius: 0 17px 17px 0;
+}
+
+.pText{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 40px;
+  color: white;
+  height: 55px;
+  padding-left: 110px;
+  background-image: url(/image/background.jpg));
+  margin-bottom: 0rem !important;
+}
+
+.divisor{
+  padding: 1px;
+  background-color:#332df7;
+}
+
+.divisor2{
+  padding: 1px;
+  background-color: #ed2424;
+  margin-bottom: 20px;
+}
+
+#carouselExampleFade{
+  width: 80%;
+  padding-left: 310px;
+}
+
+.imgSize{
+  max-width: 45% !important;
+  padding-bottom: 15px;
+}
+
+.color-text{
+  color: white;
+}
+
+.btn-outline-danger{
+  color: white !important;
+  box-shadow: none !important;
 }
